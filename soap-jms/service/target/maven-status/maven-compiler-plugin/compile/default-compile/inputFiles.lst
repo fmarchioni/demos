@@ -1,0 +1,9 @@
+/home/francesco/maven-projects/wildfly10/quickstart-10.x/soap-jms/service/target/generated-sources/wsconsume/org/jboss/quickstarts/ws/jaxws/samples/retail/profile/HelloWorldServiceLocal.java
+/home/francesco/maven-projects/wildfly10/quickstart-10.x/soap-jms/service/target/generated-sources/wsconsume/org/jboss/quickstarts/ws/jaxws/samples/retail/profile/HelloWorld.java
+/home/francesco/maven-projects/wildfly10/quickstart-10.x/soap-jms/service/target/generated-sources/wsconsume/org/jboss/quickstarts/ws/jaxws/samples/retail/profile/HelloWorldService.java
+/home/francesco/maven-projects/wildfly10/quickstart-10.x/soap-jms/service/target/generated-sources/wsconsume/org/jboss/quickstarts/ws/jaxws/samples/retail/profile/Echo.java
+/home/francesco/maven-projects/wildfly10/quickstart-10.x/soap-jms/service/target/generated-sources/wsconsume/org/jboss/quickstarts/ws/jaxws/samples/retail/profile/EchoResponse.java
+/home/francesco/maven-projects/wildfly10/quickstart-10.x/soap-jms/service/target/generated-sources/wsconsume/org/jboss/quickstarts/ws/jaxws/samples/retail/profile/package-info.java
+/home/francesco/maven-projects/wildfly10/quickstart-10.x/soap-jms/service/target/generated-sources/wsconsume/org/jboss/quickstarts/ws/jaxws/samples/retail/profile/ObjectFactory.java
+/home/francesco/maven-projects/wildfly10/quickstart-10.x/soap-jms/service/src/main/java/org/jboss/test/ws/jaxws/cxf/jms/HelloWorld.java
+/home/francesco/maven-projects/wildfly10/quickstart-10.x/soap-jms/service/src/main/java/org/jboss/test/ws/jaxws/cxf/jms/HelloWorldImpl.java

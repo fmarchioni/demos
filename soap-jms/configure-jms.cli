@@ -1,0 +1,10 @@
+# Batch script to add the JMS configuration to the WildFly server
+
+# Start batching commands
+batch
+
+# Configure the JMS test queue
+jms-queue add --queue-address=testQueue --entries=queue/testQueue,java:jboss/exported/jms/queue/testQueue
+
+# Run the batch commands
+run-batch
