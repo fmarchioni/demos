@@ -1,9 +1,0 @@
-org/jboss/quickstarts/ws/jaxws/samples/retail/profile/HelloWorldServiceLocal.class
-org/jboss/test/ws/jaxws/cxf/jms/HelloWorldImpl.class
-org/jboss/quickstarts/ws/jaxws/samples/retail/profile/HelloWorldService.class
-org/jboss/quickstarts/ws/jaxws/samples/retail/profile/package-info.class
-org/jboss/quickstarts/ws/jaxws/samples/retail/profile/EchoResponse.class
-org/jboss/quickstarts/ws/jaxws/samples/retail/profile/HelloWorld.class
-org/jboss/quickstarts/ws/jaxws/samples/retail/profile/ObjectFactory.class
-org/jboss/quickstarts/ws/jaxws/samples/retail/profile/Echo.class
-org/jboss/test/ws/jaxws/cxf/jms/HelloWorld.class
