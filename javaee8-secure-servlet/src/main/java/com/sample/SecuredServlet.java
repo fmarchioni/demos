@@ -1,6 +1,7 @@
 package com.sample;
 
 import java.io.IOException;
+import java.io.PrintWriter;
 
 import javax.security.enterprise.authentication.mechanism.http.*;
 import javax.servlet.ServletException;
@@ -25,8 +26,9 @@ public class SecuredServlet extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
 
-        long startTime = System.currentTimeMillis();
-        System.out.println("AsyncServlet Start, Thread Name=" + Thread.currentThread().getName());
+        PrintWriter out = response.getWriter();
+        out.println("Welcome to secure servlet!");
+        out.close();
 
     }
 
