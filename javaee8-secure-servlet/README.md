@@ -4,6 +4,7 @@ Java EE 8 DatabaseLogin identity store
 #### Requires
 
 A datasource bound at: java:/MySqlDS
+```shell
    <datasources>
                 <datasource jndi-name="java:/MySqlDS" pool-name="MySqlDS">
                     <connection-url>jdbc:mysql://172.17.0.2:3306/mysqlschema</connection-url>
@@ -21,16 +22,17 @@ A datasource bound at: java:/MySqlDS
                 </datasource>
                 <drivers>
             </datasources>
-
+```
 Hint: I have used the following Docker to start the DB:
 
+```shell
 $ docker run -d --name mysql -p 3306:3306 -e MYSQL_USER=jboss -e MYSQL_PASSWORD=jboss -e MYSQL_DATABASE=mysqlschema -e MYSQL_ROOT_PASSWORD=secret mysql
-
-###### On the database side 
-
+```
+##### On the database side 
+```sql
 CREATE TABLE USERS(login VARCHAR(64) PRIMARY KEY, password VARCHAR(64), role VARCHAR(64));
 INSERT into USERS values('admin', 'admin',’Admin’);
-
+```
 ###### Deploy
 ```shell
 mvn clean install wildfly:deploy
